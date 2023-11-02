@@ -34,6 +34,16 @@ form {
     align-items: center;
 }
 
+.advanced-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to the top */
+    align-items: flex-start; /* Align content to the left */
+    height: 100vh;
+    margin: 0;
+}
+
+
 input[type="text"] {
     width: 300px;
     padding: 5px;

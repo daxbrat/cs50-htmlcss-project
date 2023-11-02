@@ -12,9 +12,27 @@
             </li>
         </ul>
     </nav>
-    <form action="https://www.google.com/search">
-        <input type="text" name="q">
-        <div><input type="submit" value="Advanced Search"></div>
+    <div class="find">
+        Find Pages With...
+    </div>
+    <form class="advanced-search" action="https://www.google.com/search">
+        <div>
+            <label for="search-query">All these words...</label>
+            <input type="text" name="q">
+        </div>
+        <div>
+            <label for="search-query">This exact word or phrase...</label>
+            <input type="text" name="q">
+        </div>
+        <div>
+            <label for="search-query">Any of these words...</label>
+            <input type="text" name="q">
+        </div>
+        <div>
+            <label for="search-query">None of these words...</label>
+            <input type="text" name="q">
+        </div>
+        <!--  <div><input type="submit" value="Advanced Search"></div>-->
     </form>
 
 </body>
