@@ -26,9 +26,6 @@ nav {
     margin: 20px;
 }
 
-    nav ul {
-        list-style: none;  
-    }
 
     nav li {
         display: inline;
