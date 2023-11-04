@@ -27,8 +27,7 @@ nav {
 }
 
     nav ul {
-        list-style: none;
-        padding: 0;
+        list-style: none;  
     }
 
     nav li {
@@ -42,7 +41,7 @@ nav {
     align-items: center;
 }
 
-.text { /* Input button with class "text" (Everywhere except Advanced Search page) */
+.text { /* Does not affect form on Advanced Search page */
     width: 300px;
     padding: 5px;
     border: 1px solid #ccc;
