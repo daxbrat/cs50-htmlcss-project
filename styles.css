@@ -7,6 +7,7 @@
     font-size: 100%;
     vertical-align: baseline;
     text-decoration: none;
+    font-family: arial,sans-serif;
 }
 
 .mainstyle {
@@ -35,10 +36,23 @@ nav {
         margin-right: 20px;
     }
 
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text { /* Input button with class "text" (Everywhere except Advanced Search page) */
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 10px; /* Add spacing between input and button */
+}
 
 input[type="submit"] {
-    background-color: #4285f4;
-    color: #fff;
+    background-color: #4285f4; /* Google's color here is #f8f9fa*/
+    color: #fff; /* Google's color here is #3c4043*/
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -46,17 +60,11 @@ input[type="submit"] {
     margin-top: 10px;
 }
 
-.search-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .advanced-search {
     display: flex;
     flex-direction: column;
-    max-width: 350px; 
-    margin: 50px 0 0 30px;
+    max-width: 40%; 
+    margin: 50px 0 0 40px;
 }
 
     .advanced-search div {
@@ -65,5 +73,16 @@ input[type="submit"] {
         margin-bottom: 10px;
     }
 
+    .advanced-text {
+        width: 75%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 1px;
+        margin-bottom: 10px;
+    }
+
+label {
+    font-size: 13px;
+}
 
  
