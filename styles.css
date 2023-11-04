@@ -39,15 +39,15 @@ nav {
 }
 
 .text { /* Does not affect form on Advanced Search page */
-    width: 300px;
-    padding: 5px;
+    width: 525px;
+    padding: 15px;
     border: 1px solid #ccc;
-    border-radius: 20px;
-    margin-bottom: 10px; /* Add spacing between input and button */
+    border-radius: 22px;
+    margin-bottom: 8px; /* Add spacing between input and button */
 }
 
 input[type="submit"] {
-    background-color: #4285f4; /* Google's color here is #f8f9fa*/
+    background-color: #4285f4; /* Google's color here is #f8f9fa */
     color: #fff; /* Google's color here is #3c4043*/
     border: none;
     padding: 10px;
