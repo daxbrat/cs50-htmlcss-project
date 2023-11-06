@@ -77,14 +77,18 @@ input[type="submit"] {
 .ad-search-heading {
     color: #d93025;
     font-size: 20px;
-    margin: 25px 40px;
+    margin: 35px 40px 25px 40px;
     font-family: arial,sans-serif;
 }
+
+.divider {
+    border-bottom: 1px solid #ebebeb;
+} 
 
 .advanced-search {
     display: flex;
     flex-direction: column;
-    max-width: 45%; 
+    max-width: 45%;
     margin: 50px 0 0 40px;
 }
 
@@ -106,7 +110,7 @@ input[type="submit"] {
 #ad-search-button {
     background-color: #4285f4;
     color: #fff;
-    border: 1px solid #4285f4;
+    border: 1px solid #4285f4; /* To maintain text position when hovering */
     padding: 10px;
     cursor: pointer;
     margin: auto;
