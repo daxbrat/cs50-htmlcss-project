@@ -25,10 +25,10 @@ nav {
 }
 
 
-    nav li {
-        display: inline;
-        margin-right: 20px;
-    }
+li {
+    display: inline;
+    margin-right: 20px;
+ }
 
 .nav-link {
     text-decoration: none;
