@@ -2,11 +2,8 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-weight: inherit;
-    font-style: inherit;
     font-size: 100%;
     vertical-align: baseline;
-    text-decoration: none;
     font-family: arial,sans-serif;
 }
 
@@ -77,6 +74,13 @@ input[type="submit"] {
     }
 
 /* Advanced Search page styles*/
+.ad-search-heading {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 40px;
+    font-family: arial,sans-serif;
+}
+
 .advanced-search {
     display: flex;
     flex-direction: column;
