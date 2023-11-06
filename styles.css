@@ -72,7 +72,7 @@ input[type="submit"] {
         color: #202124;
     }
 
-/* Advanced Search page styles*/
+/* ///////////// Advanced Search page styles /////////////////////// */
 .ad-search-heading {
     color: #d93025;
     font-size: 20px;
@@ -84,18 +84,25 @@ input[type="submit"] {
     border-bottom: 1px solid #ebebeb;
 } 
 
-.advanced-search {
+.advanced-search,
+.advanced-search div {
     display: flex;
+}
+
+.advanced-search {
     flex-direction: column;
     max-width: 45%;
     margin: 50px 0 0 40px;
 }
 
+.advanced-search div,
+.advanced-text {
+    margin-bottom: 10px;
+}
+
     .advanced-search div {
-        display: flex;
         flex-direction: row; /* Make sure label and input are in a row */
         justify-content: space-between;
-        margin-bottom: 10px;
     }
 
     .advanced-text {
@@ -103,7 +110,6 @@ input[type="submit"] {
         padding: 5px;
         border: 1px solid #ccc;
         border-radius: 1px;
-        margin-bottom: 10px;
     }
 
 #ad-search-button {
