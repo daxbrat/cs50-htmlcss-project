@@ -48,14 +48,28 @@ nav {
 }
 
 input[type="submit"] {
-    background-color: #4285f4; /* Google's color here is #f8f9fa */
-    color: #fff; /* Google's color here is #3c4043, but I prefer the blue-white color scheme*/
-    border: none;
-    padding: 10px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
     cursor: pointer;
-    margin: auto;
-    margin-top: 10px;
+    margin: 11px 4px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
+
+    input[type="submit"]:hover {
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        background-color: #f8f9fa;
+        border: 1px solid #dadce0;
+        color: #202124;
+    }
 
 /* Advanced Search page styles*/
 .advanced-search {
@@ -80,6 +94,16 @@ input[type="submit"] {
         border-radius: 1px;
         margin-bottom: 10px;
     }
+
+#ad-search-button {
+    background-color: #4285f4;
+    color: #fff; 
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 10px;
+}
 
 label {
     font-size: 13px;
