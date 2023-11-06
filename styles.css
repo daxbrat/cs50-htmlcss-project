@@ -33,6 +33,11 @@ nav {
         margin-right: 20px;
     }
 
+.nav-link {
+    text-decoration: none;
+    /* Add any other styling you want for the navigation link */
+}
+
 .search-container {
     display: flex;
     flex-direction: column;
@@ -84,7 +89,6 @@ input[type="submit"] {
         flex-direction: row; /* Make sure label and input are in a row */
         justify-content: space-between;
         margin-bottom: 10px;
-        align-items: center; /* Vertically center label and input */
     }
 
     .advanced-text {
@@ -97,13 +101,25 @@ input[type="submit"] {
 
 #ad-search-button {
     background-color: #4285f4;
-    color: #fff; 
-    border: none;
+    color: #fff;
+    border: 1px solid #4285f4;
     padding: 10px;
     cursor: pointer;
     margin: auto;
     margin-top: 10px;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    border-color: transparent; /* To maintain text position when hovering */
 }
+
+    #ad-search-button:hover {
+        background-color: #357ae8;
+        border: 1px solid #2f5bb7;
+    }
 
 label {
     font-size: 13px;
