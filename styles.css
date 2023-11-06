@@ -56,17 +56,20 @@ input[type="submit"] {
     margin-top: 10px;
 }
 
+/* Advanced Search page styles*/
 .advanced-search {
     display: flex;
     flex-direction: column;
-    max-width: 40%; 
+    max-width: 45%; 
     margin: 50px 0 0 40px;
 }
 
     .advanced-search div {
         display: flex;
+        flex-direction: row; /* Make sure label and input are in a row */
         justify-content: space-between;
         margin-bottom: 10px;
+        align-items: center; /* Vertically center label and input */
     }
 
     .advanced-text {
@@ -79,6 +82,7 @@ input[type="submit"] {
 
 label {
     font-size: 13px;
+    min-width: 130px; /* Set a minimum width for labels */
 }
 
  
